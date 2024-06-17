@@ -1,0 +1,31 @@
+{
+  "name": "@hevelop/typescript-client-crif-margo",
+  "version": "1.0.0",
+  "description": "OpenAPI client for @hevelop/typescript-client-crif-margo",
+  "author": "OpenAPI-Generator Contributors",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Hevelop/typescript-client-crif-margo.git"
+  },
+  "keywords": [
+    "axios",
+    "typescript",
+    "openapi-client",
+    "openapi-generator",
+    "@hevelop/typescript-client-crif-margo"
+  ],
+  "license": "Unlicense",
+  "main": "./dist/index.js",
+  "typings": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "dependencies": {
+    "axios": "^1.6.1"
+  },
+  "devDependencies": {
+    "@types/node": "^12.11.5",
+    "typescript": "^4.0"
+  }
+}
